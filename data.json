@@ -1,0 +1,956 @@
+{
+  "perfil": {
+    "nome": "Rafael Inácio",
+    "cargo": "Engenheiro de IA · Desenvolvedor Backend Python",
+    "localizacao": "Belo Horizonte, MG",
+    "avatar": "",
+    "lede": "Desenvolvo aplicações de IA generativa e sistemas backend em Python, buscando alta precisão com o menor custo operacional possível.",
+    "bio": [
+      "Sou Desenvolvedor Backend Python e Engenheiro de IA, com forte atuação em arquiteturas escaláveis e otimização de custos (FinOps). Atualmente, na Docato, uma legaltech de automação B2B, desenvolvo aplicações de IA generativa para processamento, classificação e extração de dados em documentos judiciais e para transcrição de áudios.",
+      "Projetei a plataforma que centraliza todos os microsserviços de IA da empresa, reduzindo em 43% o custo diário de infraestrutura.",
+      "Meu objetivo é entregar alta precisão pelo menor custo operacional: estruturo testes rigorosos antes de levar modelos para produção e, aplicando essa mesma visão arquitetural, reduzi em 98,6% o custo de consultas em nuvem (AWS Athena) para um grande cliente."
+    ],
+    "email": "rafaelinacio.contato@gmail.com",
+    "links": [
+      {
+        "rotulo": "GitHub",
+        "url": "https://github.com/inacio-developer"
+      },
+      {
+        "rotulo": "LinkedIn",
+        "url": "https://www.linkedin.com/in/inacio-developer/"
+      },
+      {
+        "rotulo": "Medium",
+        "url": "https://medium.com/@rafaelinacio.articles"
+      },
+      {
+        "rotulo": "Currículo",
+        "url": "assets/docs/curriculo-rafael-inacio.pdf"
+      }
+    ],
+    "contatos": [
+      {
+        "rotulo": "WhatsApp",
+        "url": "https://wa.me/5531994557852"
+      }
+    ],
+    "ferramentas": [
+      {
+        "grupo": "IA e LLMs",
+        "itens": [
+          "Google Vertex AI (Gemini)",
+          "Anthropic Claude",
+          "Whisper",
+          "Engenharia de prompt",
+          "Saídas estruturadas (JSON Schema)",
+          "LLM-as-a-judge",
+          "Agentes de IA",
+          "OCR (Tesseract)",
+          "Classificação e segmentação de documentos",
+          "TF-IDF",
+          "Avaliação de modelos",
+          "Controle de custo por token"
+        ]
+      },
+      {
+        "grupo": "Backend",
+        "itens": [
+          "Python",
+          "Arquitetura orientada a eventos",
+          "RabbitMQ",
+          "Workers assíncronos",
+          "APIs REST",
+          "Integração de sistemas",
+          "RPA (Playwright)",
+          "PHP (Yii2)"
+        ]
+      },
+      {
+        "grupo": "Dados",
+        "itens": [
+          "PostgreSQL",
+          "MySQL",
+          "DuckDB",
+          "Apache Parquet",
+          "AWS Athena",
+          "pandas",
+          "SQL"
+        ]
+      },
+      {
+        "grupo": "Cloud e DevOps",
+        "itens": [
+          "Google Cloud (Cloud Run, Vertex AI, Cloud Billing)",
+          "AWS (S3, Athena, ECR)",
+          "Docker",
+          "Git",
+          "Graylog"
+        ]
+      },
+      {
+        "grupo": "Qualidade",
+        "itens": [
+          "pytest",
+          "Observabilidade e alertas",
+          "Scrum",
+          "Kanban",
+          "Jira"
+        ]
+      },
+      {
+        "grupo": "Front-end",
+        "itens": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      }
+    ]
+  },
+  "trajetoria": [
+    {
+      "tipo": "experiencia",
+      "inicio": "2025",
+      "fim": "",
+      "titulo": "Docato",
+      "organizacao": "Legaltech · Remoto · Automação e IA para processamento de documentos judiciais",
+      "cargos": [
+        {
+          "titulo": "Desenvolvedor de Software (Backend Python e IA)",
+          "periodo": "jun 2025 - atual",
+          "grupos": [
+            {
+              "titulo": "Arquitetura e performance",
+              "itens": [
+                "Arquitetei e construí a plataforma centralizada de IA (monolito modular) que unificou os projetos da empresa: 43% menos no custo diário de servidores e 36% menos na fatura de nuvem, mesmo com 17% mais tarefas.",
+                "Contribuí com a arquitetura, a camada de acesso a dados e a mensageria (RabbitMQ) de um classificador de documentos baseado em regras, desenhado com especialistas jurídicos para acionar modelos de IA só quando necessário.",
+                "Otimizei o aplicativo de Detecção de Litigância Predatória: atualizei o modelo LLM, implementei retentativas para respostas truncadas e migrei o sistema para a arquitetura centralizada, sem servidor dedicado e sem perda de acurácia."
+              ]
+            },
+            {
+              "titulo": "Produtos de IA em produção",
+              "itens": [
+                "Autor principal de 6 aplicações de IA para documentos judiciais: Agentes Personalizados, Transcrição de Áudio, Análise de Áudio, Classificador de Dados, IA Generativa de Texto e Segmentador de IA.",
+                "Reconstruí o Classificador de Dados com dois modelos leitores (Claude e Gemini) e um juiz acionado só nas divergências: acerto de 87% para 92%, custo por tarefa 25% menor e tarefas pesadas de até 4h42 para 6 minutos.",
+                "Criei o Segmentador de IA, que divide autos de até 20 mil páginas em 16 tipos de documento usando regras determinísticas antes da IA, com 59% menos erros de divisão.",
+                "Implementei transcrição e análise de áudio com Whisper em infraestrutura própria, zerando o custo por minuto de API, e Agentes Personalizados validados em 31 de 31 casos com clientes do setor financeiro."
+              ]
+            },
+            {
+              "titulo": "Integrações e observabilidade",
+              "itens": [
+                "Autor principal de 14 aplicativos de automação e 7 integrações com sistemas jurídicos (Projuris, Brainlaw, BC Legal, SCAE, Looplex) via APIs REST e Playwright, atendendo grandes empresas dos setores financeiro, de saúde e varejo.",
+                "Implantei controle de custo e operação: registro de tokens por chamada de IA, relatórios automatizados e alertas de tarefas travadas no Google Chat."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "experiencia",
+      "inicio": "2025",
+      "fim": "2025",
+      "titulo": "UITEC",
+      "organizacao": "Remoto · Plataforma Psyc's",
+      "cargos": [
+        {
+          "titulo": "Desenvolvedor Full Stack Júnior",
+          "periodo": "mar 2025 - jun 2025",
+          "itens": [
+            "Desenvolvi APIs e integrações no back-end em PHP (Yii2) para a plataforma Psyc's, conectando regras de negócio às interfaces do produto.",
+            "Implementei telas e componentes no front-end com React e Next.js, atuando de forma integrada entre front-end e back-end."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "formacao",
+      "inicio": "2026",
+      "fim": "2029",
+      "titulo": "Bacharelado em Sistemas de Informação",
+      "organizacao": "PUC Minas",
+      "descricao": ""
+    },
+    {
+      "tipo": "formacao",
+      "inicio": "2023",
+      "fim": "2024",
+      "titulo": "Curso Livre Profissionalizante",
+      "organizacao": "EBAC (Escola Britânica de Artes Criativas e Tecnologia)",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2024",
+      "fim": "2024",
+      "titulo": "Programação Web: Banco de Dados MySQL",
+      "organizacao": "Prefeitura de Belo Horizonte",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2024",
+      "fim": "2024",
+      "titulo": "Banco de Dados",
+      "organizacao": "B7Web",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2023",
+      "fim": "2023",
+      "titulo": "JavaScript Completo ES6",
+      "organizacao": "Origamid",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2023",
+      "fim": "2023",
+      "titulo": "HTML5 e CSS3",
+      "organizacao": "B7Web",
+      "descricao": ""
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma Centralizada de IA",
+      "vinculo": {
+        "cargo": "Desenvolvedor Backend Python e IA",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "As aplicações de IA rodavam em 7 pools isolados de microsserviços, com infraestrutura, logs e código duplicados. Projetei um monolito modular em Python em que cada aplicativo escreve apenas a regra de negócio: fila RabbitMQ por app, histórico em PostgreSQL, prioridades e timeouts por fila, cliente de IA centralizado e cache de OCR compartilhado.",
+      "resultado": "7 pools consolidados em 1 serviço com 8 filas · −43% no custo diário de servidores · 722 testes automatizados",
+      "tecnologias": [
+        "Python",
+        "RabbitMQ",
+        "PostgreSQL",
+        "Cloud Run",
+        "Vertex AI",
+        "Claude",
+        "OCR"
+      ]
+    },
+    {
+      "titulo": "Agentes de IA Personalizados e Extração Estruturada",
+      "vinculo": {
+        "cargo": "Desenvolvedor Backend Python e IA",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "Arquitetura de agentes de IA generativa para lidar com a alta variabilidade de regras entre clientes, extraindo dados de documentos judiciais em saídas estruturadas e validadas.",
+      "resultado": "Validado em 31 de 31 casos com clientes do setor financeiro",
+      "tecnologias": [
+        "Python",
+        "IA generativa",
+        "Agentes de IA",
+        "JSON Schema"
+      ]
+    },
+    {
+      "titulo": "Classificador de Dados com LLMs",
+      "vinculo": {
+        "cargo": "Desenvolvedor Backend Python e IA",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "Reconstruí o classificador com dois modelos leitores (Claude e Gemini) e um modelo juiz que só entra quando os leitores divergem. Assim ganho precisão sem pagar por três chamadas em toda tarefa.",
+      "resultado": "Acerto de 87% para 92% · custo por tarefa 25% menor · tarefas pesadas de até 4h42 para 6 min",
+      "tecnologias": [
+        "Python",
+        "Claude",
+        "Gemini",
+        "LLM-as-a-judge"
+      ]
+    },
+    {
+      "titulo": "Segmentador de IA",
+      "vinculo": {
+        "cargo": "Desenvolvedor Backend Python e IA",
+        "empresa": "Docato"
+      },
+      "ano": "",
+      "resumo": "Divide autos judiciais de até 20 mil páginas em 16 tipos de documento, aplicando regras determinísticas antes de acionar a IA.",
+      "resultado": "−59% nos erros de divisão",
+      "tecnologias": [
+        "Python",
+        "OCR",
+        "TF-IDF",
+        "IA generativa"
+      ]
+    },
+    {
+      "titulo": "Cache de Dados com DuckDB",
+      "vinculo": {
+        "cargo": "Desenvolvedor Backend Python e IA",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "Um cliente do setor financeiro fazia até 82 queries no AWS Athena por CPF, cada uma varrendo tabelas inteiras. Arquitetei um cache diário: o Athena processa a base uma vez ao dia e grava Parquet (ZSTD) no S3, particionado por faixa de CPF e lido direto via DuckDB, sem servidor dedicado.",
+      "resultado": "Custo mensal 98,6% menor (de ~US$ 19,3 mil para ~US$ 290) · tempo por CPF de 20 a 30 min para segundos",
+      "tecnologias": [
+        "Python",
+        "DuckDB",
+        "Parquet",
+        "AWS S3",
+        "AWS Athena"
+      ]
+    }
+  ],
+  "escritos": {
+    "fonte": {
+      "feed": "https://medium.com/feed/@rafaelinacio.articles",
+      "proxy": "https://api.rss2json.com/v1/api.json?rss_url=",
+      "palavrasPorMinuto": 200,
+      "tempoLimiteMs": 6000
+    },
+    "itens": [
+      {
+        "titulo": "Entendendo o modificador static em Java",
+        "data": "2025-03-27",
+        "minutos": 6,
+        "resumo": "O modificador static define membros que pertencem à classe, e não à instância. O que isso muda no compartilhamento de valores e na sobrescrita de métodos.",
+        "url": "https://medium.com/@rafaelinacio.articles/entendendo-o-modificador-static-em-java-724977cef646"
+      },
+      {
+        "titulo": "Desconstruindo os Construtores",
+        "data": "2025-03-24",
+        "minutos": 4,
+        "resumo": "Uma classe não pode existir sem um construtor. Um texto dedicado a eles, aproveitando para explicar a sobrecarga.",
+        "url": "https://medium.com/@rafaelinacio.articles/desconstruindo-os-construtores-0ea64987c56c"
+      },
+      {
+        "titulo": "Entendendo Classes em Java",
+        "data": "2025-03-13",
+        "minutos": 3,
+        "resumo": "As classes organizam variáveis e funções, antes soltas, dentro de um contexto. Uma introdução à base da Programação Orientada a Objetos.",
+        "url": "https://medium.com/@rafaelinacio.articles/entendendo-classes-em-java-472365180b42"
+      },
+      {
+        "titulo": "Curiosidades do Java",
+        "data": "2025-03-02",
+        "minutos": 4,
+        "resumo": "Comportamentos curiosos que aparecem ao aprender uma linguagem. Às vezes é um bug, às vezes algo perfeitamente normal, mas que vale a pena entender.",
+        "url": "https://medium.com/@rafaelinacio.articles/curiosidades-do-java-581fe192fbe2"
+      },
+      {
+        "titulo": "Java: Write Once, Run Anywhere",
+        "data": "2025-03-01",
+        "minutos": 4,
+        "resumo": "O lema que me motivou a aprender Java: escrever uma vez e executar em qualquer lugar. Como a JVM torna essa promessa possível.",
+        "url": "https://medium.com/@rafaelinacio.articles/java-write-once-run-anywhere-994e4c507697"
+      },
+      {
+        "titulo": "Do Básico ao Essencial: A Importância da Objetividade na Programação",
+        "data": "2024-12-17",
+        "minutos": 4,
+        "resumo": "Era uma simples calculadora, quando, de repente, deixou de ser. Sobre projetos que crescem em complexidade e o valor de manter o foco no essencial.",
+        "url": "https://medium.com/@rafaelinacio.articles/do-b%C3%A1sico-ao-essencial-a-import%C3%A2ncia-da-objetividade-na-programa%C3%A7%C3%A3o-1d2909017f91"
+      }
+    ]
+  },
+  "curiosidades": {
+    "ritmo": {
+      "primeiraAposSegundos": [
+        15,
+        40
+      ],
+      "duracaoSegundos": [
+        20,
+        75
+      ],
+      "intervaloSegundos": [
+        30,
+        100
+      ]
+    },
+    "sequencia": {
+      "tamanho": 5,
+      "atrasoSegundos": 5,
+      "continuacao": {
+        "icone": "assets/img/icons/mais.png",
+        "legenda": "Tem mais. Fique por aqui, outras curiosidades sobre o Rafael vão aparecendo."
+      }
+    },
+    "itens": [
+      {
+        "icone": "assets/img/icons/anime-one-piece.png",
+        "legenda": "One Piece é o anime favorito de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/chapeu-luffy.png",
+        "legenda": "O chapéu de palha do Luffy, de One Piece, o anime favorito de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/mangas-one-piece.png",
+        "legenda": "Além do anime, Rafael também lê o mangá de One Piece."
+      },
+      {
+        "icone": "assets/img/icons/anime-fma.png",
+        "legenda": "Fullmetal Alchemist está entre os animes preferidos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/anime-hunterxhunter.png",
+        "legenda": "Hunter x Hunter está entre os animes preferidos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/anime-naruto.png",
+        "legenda": "Naruto está entre os animes preferidos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/anime-pokemon.png",
+        "legenda": "Rafael é fã de Pokémon."
+      },
+      {
+        "icone": "assets/img/icons/animes.png",
+        "legenda": "Rafael é fã de animes."
+      },
+      {
+        "icone": "assets/img/icons/escudo-palmeiras.png",
+        "legenda": "Rafael é palmeirense."
+      },
+      {
+        "icone": "assets/img/icons/escudo-liverpool.png",
+        "legenda": "Na Inglaterra, Rafael torce pelo Liverpool."
+      },
+      {
+        "icone": "assets/img/icons/escudo-barcelona.png",
+        "legenda": "Na Espanha, Rafael torce pelo Barcelona."
+      },
+      {
+        "icone": "assets/img/icons/escudo-celtics.png",
+        "legenda": "Na NBA, Rafael torce pelo Boston Celtics."
+      },
+      {
+        "icone": "assets/img/icons/futebol.png",
+        "legenda": "Rafael é apaixonado por futebol."
+      },
+      {
+        "icone": "assets/img/icons/basquete.png",
+        "legenda": "Rafael também acompanha basquete."
+      },
+      {
+        "icone": "assets/img/icons/esportes.png",
+        "legenda": "Rafael é fã de esportes."
+      },
+      {
+        "icone": "assets/img/icons/filmes-forrest-gump.png",
+        "legenda": "Forrest Gump é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-david-gale.png",
+        "legenda": "A Vida de David Gale é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-past-lives.png",
+        "legenda": "Vidas Passadas é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-taxi-driver.png",
+        "legenda": "Taxi Driver é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-toc-toc.png",
+        "legenda": "Toc Toc é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-zodiaco.png",
+        "legenda": "Zodíaco é um dos filmes favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes-misterio.png",
+        "legenda": "Filmes de mistério são os preferidos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/filmes.png",
+        "legenda": "Rafael adora cinema."
+      },
+      {
+        "icone": "assets/img/icons/series-the-office.png",
+        "legenda": "The Office é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series-himym.png",
+        "legenda": "How I Met Your Mother é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series-modern-family.png",
+        "legenda": "Modern Family é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series-arrested-development.png",
+        "legenda": "Arrested Development é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series-abbott.png",
+        "legenda": "Abbott Elementary é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series-adults.png",
+        "legenda": "Adults é uma das séries favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/series.png",
+        "legenda": "Rafael é fã de séries de comédia."
+      },
+      {
+        "icone": "assets/img/icons/jogos-fifa.png",
+        "legenda": "Rafael joga EA Sports."
+      },
+      {
+        "icone": "assets/img/icons/jogos-lol.png",
+        "legenda": "Rafael joga League of Legends."
+      },
+      {
+        "icone": "assets/img/icons/jogos.png",
+        "legenda": "Rafael gosta de videogames."
+      },
+      {
+        "icone": "assets/img/icons/musica.png",
+        "legenda": "Rafael adora música."
+      },
+      {
+        "icone": "assets/img/icons/robos.png",
+        "legenda": "Rafael é fascinado por robôs."
+      },
+      {
+        "icone": "assets/img/icons/ti.png",
+        "legenda": "Tecnologia sempre foi a paixão de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/belo-horizonte.png",
+        "legenda": "Rafael vive em Belo Horizonte."
+      },
+      {
+        "icone": "assets/img/icons/minas-gerais.png",
+        "legenda": "Queijo, café e montanhas: Minas Gerais é a casa de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/comida-arroz-e-feijao.png",
+        "legenda": "Para Rafael, nada supera um bom arroz com feijão."
+      },
+      {
+        "icone": "assets/img/icons/comida-batata-frita.png",
+        "legenda": "Rafael não resiste a uma batata frita."
+      },
+      {
+        "icone": "assets/img/icons/comida-bolo.png",
+        "legenda": "Rafael adora bolo."
+      },
+      {
+        "icone": "assets/img/icons/comida-hamburguer.png",
+        "legenda": "Hambúrguer está entre as comidas favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/comida-ovo.png",
+        "legenda": "Ovo frito: simples, e um dos favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/comida-pao.png",
+        "legenda": "Pão de sal com manteiga é o café da manhã favorito de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/comida-pizza.png",
+        "legenda": "Pizza está entre as comidas favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-dragonball.png",
+        "legenda": "Rafael cresceu assistindo Dragon Ball."
+      },
+      {
+        "icone": "assets/img/icons/desenho-caverna-do-dragao.png",
+        "legenda": "Caverna do Dragão: um clássico da infância de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-looney-tunes.png",
+        "legenda": "Looney Tunes fez parte das tardes de infância de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-tom-e-jerry.png",
+        "legenda": "Tom & Jerry fez parte da infância de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-menino-maluquinho.png",
+        "legenda": "O Menino Maluquinho marcou a infância de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-pequeno-urso.png",
+        "legenda": "O Pequeno Urso é uma lembrança querida da infância de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-sete-monstrinhos.png",
+        "legenda": "Rafael aprendeu a contar com os Sete Monstrinhos."
+      },
+      {
+        "icone": "assets/img/icons/zatch-bell.png",
+        "legenda": "Zatch Bell está entre os animes preferidos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-tatum.png",
+        "legenda": "Rafael é fã de Jayson Tatum, camisa 0 do Celtics, o time do coração dele na NBA."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-curry.png",
+        "legenda": "Rafael é fã de Stephen Curry, Chef Curry, o maior arremessador de três da história da NBA."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-lebron.png",
+        "legenda": "Rafael é fã de LeBron James, King James, um dos maiores jogadores da história da NBA."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-durant.png",
+        "legenda": "Rafael gosta tanto de Kevin Durant que já fez uma landing page para o tênis dele."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-duncan.png",
+        "legenda": "Rafael é fã de Tim Duncan, The Big Fundamental, lenda do San Antonio Spurs."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-kawhi.png",
+        "legenda": "Rafael é fã de Kawhi Leonard, The Klaw, um dos jogadores mais discretos da NBA."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-luka.png",
+        "legenda": "Rafael é fã de Luka Dončić, Luka Magic, e das jogadas impossíveis dele."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-marcos.png",
+        "legenda": "São Marcos, o goleiro santo, é um dos maiores ídolos de Rafael no Palmeiras."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-marcos-assuncao.png",
+        "legenda": "Marcos Assunção é um dos ídolos de Rafael no Palmeiras, muito pelas cobranças de falta."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-barcos.png",
+        "legenda": "Barcos, o Pirata, deixou saudade na torcida palmeirense de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-diego-souza.png",
+        "legenda": "O gol do meio de campo de Diego Souza contra o Atlético-MG é um dos motivos de Rafael ser palmeirense."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-dudu.png",
+        "legenda": "Dudu é um dos ídolos de Rafael no Palmeiras, o clube do coração dele."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-messi.png",
+        "legenda": "Rafael é fã de Messi, camisa 10 do Barcelona, o time dele na Espanha."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-ronaldinho.png",
+        "legenda": "Rafael é fã de Ronaldinho Gaúcho, o Bruxo, e do sorriso que ele levava pro campo."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-ronaldo.png",
+        "legenda": "Rafael é fã de Ronaldo Fenômeno, camisa 9 do penta."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-iniesta.png",
+        "legenda": "Rafael é fã de Iniesta, o maestro do meio-campo do Barcelona."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-suarez.png",
+        "legenda": "Rafael é fã de Luis Suárez, do trio MSN do Barcelona."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-salah.png",
+        "legenda": "Rafael é fã de Mohamed Salah, o Rei do Egito, artilheiro do Liverpool."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-hazard.png",
+        "legenda": "Rafael é fã de Eden Hazard e dos dribles dele nos tempos de Chelsea."
+      },
+      {
+        "icone": "assets/img/icons/livros.png",
+        "legenda": "Rafael adora ler."
+      },
+      {
+        "icone": "assets/img/icons/livro-os-miseraveis.png",
+        "legenda": "Os Miseráveis, de Victor Hugo, é um dos livros favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/livro-algoritmos.png",
+        "legenda": "Livros de algoritmos também têm lugar na estante de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/scarlett.png",
+        "legenda": "Scarlett, a namorada de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/musica-mpb.png",
+        "legenda": "MPB é trilha sonora frequente na vida de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/musica-samba.png",
+        "legenda": "Samba e pagode têm vez na playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/musica-rap.png",
+        "legenda": "Rap nacional e gringo: presença garantida nos fones de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/musica-pop.png",
+        "legenda": "Rafael também tem seu lado pop."
+      },
+      {
+        "icone": "assets/img/icons/artista-caetano-veloso.png",
+        "legenda": "Caminhando contra o vento, sem lenço e sem documento, Rafael segue com Caetano nos fones."
+      },
+      {
+        "icone": "assets/img/icons/artista-chico-buarque.png",
+        "legenda": "Rafael estava à toa na vida quando Chico Buarque o chamou pra ver a banda passar."
+      },
+      {
+        "icone": "assets/img/icons/artista-gilberto-gil.png",
+        "legenda": "Andar com fé eu vou… e com Gilberto Gil na playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-gal-costa.png",
+        "legenda": "Meu nome é Gal, e ela está entre as vozes favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-milton-nascimento.png",
+        "legenda": "Milton Nascimento embala o coração de estudante de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-gonzaguinha.png",
+        "legenda": "Viver e não ter a vergonha de ser feliz: Gonzaguinha, na playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-erasmo-carlos.png",
+        "legenda": "Erasmo Carlos, o Tremendão, tem lugar cativo na playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-roberto-carlos.png",
+        "legenda": "Roberto Carlos já avisou: é preciso saber viver. Rafael concorda."
+      },
+      {
+        "icone": "assets/img/icons/artista-lulu-santos.png",
+        "legenda": "Tudo muda o tempo todo no mundo, menos Lulu Santos na playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-nando-reis.png",
+        "legenda": "Estranho seria se Rafael não ouvisse Nando Reis."
+      },
+      {
+        "icone": "assets/img/icons/artista-skank.png",
+        "legenda": "E quando Rafael está triste, simplesmente um Skank nos fones."
+      },
+      {
+        "icone": "assets/img/icons/artista-paralamas-do-sucesso.png",
+        "legenda": "Eu quis dizer, você não quis escutar. Mas Rafael escuta os Paralamas do Sucesso."
+      },
+      {
+        "icone": "assets/img/icons/artista-humberto-gessinger.png",
+        "legenda": "Somos quem podemos ser: Humberto Gessinger está entre os favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-charlie-brown-jr.png",
+        "legenda": "Só os loucos sabem: Charlie Brown Jr. marcou a adolescência de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-zeca-pagodinho.png",
+        "legenda": "Deixa a vida me levar, vida leva eu. E o Zeca leva a playlist de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-beth-carvalho.png",
+        "legenda": "Vou festejar! Beth Carvalho está entre as vozes favoritas de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-alcione.png",
+        "legenda": "Não deixe o samba morrer! Rafael não deixa, com Alcione nos fones."
+      },
+      {
+        "icone": "assets/img/icons/artista-belo.png",
+        "legenda": "Belo também tem vez na playlist de Rafael, sem vergonha nenhuma."
+      },
+      {
+        "icone": "assets/img/icons/artista-racionais.png",
+        "legenda": "Até no lixão nasce flor: Racionais MC's é um dos grupos favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-marcelo-d2.png",
+        "legenda": "Rafael também vive à procura da batida perfeita, com Marcelo D2."
+      },
+      {
+        "icone": "assets/img/icons/artista-don-l.png",
+        "legenda": "Caro vapor: Don L está entre os rappers favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-sant.png",
+        "legenda": "Sant está entre os rappers favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-kendrick-lamar.png",
+        "legenda": "We gon' be alright: Kendrick Lamar está entre os rappers favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-eminem.png",
+        "legenda": "You only get one shot: Eminem toca alto nos fones de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-mac-miller.png",
+        "legenda": "Good news: Mac Miller é um dos artistas favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-sza.png",
+        "legenda": "Good days: SZA toca com frequência nos fones de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/artista-michael-jackson.png",
+        "legenda": "Don't stop 'til you get enough: Rafael não para de ouvir Michael Jackson."
+      },
+      {
+        "icone": "assets/img/icons/artista-justin-bieber.png",
+        "legenda": "Is it too late now to say sorry? Sim, Rafael também ouve Justin Bieber."
+      },
+      {
+        "icone": "assets/img/icons/beyblade.png",
+        "legenda": "3, 2, 1… let it rip! Rafael cresceu girando Beyblades."
+      },
+      {
+        "icone": "assets/img/icons/sonho-amigos-e-familia-realizando-sonhos.png",
+        "legenda": "Um sonho de Rafael: ver amigos e família realizando os próprios sonhos."
+      },
+      {
+        "icone": "assets/img/icons/sonho-bom-desenvolvedor.png",
+        "legenda": "Um sonho de Rafael: subir cada degrau, de júnior a sênior, e ser um ótimo desenvolvedor."
+      },
+      {
+        "icone": "assets/img/icons/sonho-solucoes-que-ajudam-pessoas.png",
+        "legenda": "Um sonho de Rafael: criar soluções que realmente ajudem pessoas."
+      },
+      {
+        "icone": "assets/img/icons/sonho-viajar-o-mundo.png",
+        "legenda": "Um sonho de Rafael: viajar o mundo."
+      },
+      {
+        "icone": "assets/img/icons/sonho-vida-financeira-saudavel.png",
+        "legenda": "Um sonho de Rafael: ter uma vida financeira saudável e tranquila."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-alisson.png",
+        "legenda": "Alisson, o paredão do Liverpool, é um dos favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-firmino.png",
+        "legenda": "Bobby Firmino e seu sorriso marcaram o Liverpool favorito de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-gerrard.png",
+        "legenda": "You'll Never Walk Alone: Steven Gerrard, capitão eterno do Liverpool, é ídolo de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-mane.png",
+        "legenda": "Sadio Mané, do trio de ataque do Liverpool, é um dos favoritos de Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-van-dijk.png",
+        "legenda": "Virgil van Dijk, a muralha do Liverpool, é um dos favoritos de Rafael."
+      }
+    ]
+  },
+  "textos": {
+    "meta": {
+      "idioma": "pt-BR",
+      "paginas": {
+        "inicio": {
+          "titulo": "Rafael Inácio | Engenheiro de IA e Desenvolvedor Backend Python",
+          "descricao": "Portfólio de Rafael Inácio, Engenheiro de IA e Desenvolvedor Backend Python. Aplicações de IA generativa, arquitetura de backend e otimização de custos em nuvem."
+        },
+        "escritos": {
+          "titulo": "Escritos | Rafael Inácio",
+          "descricao": "Reflexões de Rafael Inácio sobre aprendizado, carreira e crescimento."
+        }
+      }
+    },
+    "navegacao": [
+      {
+        "pagina": "inicio",
+        "rotulo": "Início",
+        "href": "./"
+      },
+      {
+        "pagina": "escritos",
+        "rotulo": "Escritos",
+        "href": "escritos.html"
+      }
+    ],
+    "acessibilidade": {
+      "pularConteudo": "Pular para o conteúdo",
+      "fotoPerfil": "Foto de Rafael Inácio",
+      "novaAba": "(abre em nova aba)",
+      "navegacaoLinks": "Links externos",
+      "navegacaoSite": "Navegação principal"
+    },
+    "secoes": {
+      "sobre": {
+        "titulo": "Sobre"
+      },
+      "projetos": {
+        "titulo": "Projetos",
+        "rotuloCodigo": "Código",
+        "vinculo": "Desenvolvido como {cargo} na {empresa}"
+      },
+      "escritos": {
+        "leitura": "{min} min de leitura"
+      },
+      "arquivo": {
+        "titulo": "Todos os textos",
+        "verTodos": {
+          "rotulo": "Perfil no Medium",
+          "url": "https://medium.com/@rafaelinacio.articles"
+        }
+      },
+      "trajetoria": {
+        "titulo": "Trajetória",
+        "grupos": {
+          "experiencia": "Experiência",
+          "formacao": "Formação",
+          "certificacao": "Cursos e certificações"
+        }
+      },
+      "ferramentas": {
+        "titulo": "Competências"
+      },
+      "contato": {
+        "titulo": "Contato",
+        "texto": "A forma mais rápida de falar comigo é por e-mail.",
+        "copiar": "Copiar",
+        "copiado": "Copiado"
+      }
+    },
+    "paginaEscritos": {
+      "titulo": "Escritos",
+      "introducao": "Escrevo para entender o que aprendo. Aqui ficam minhas reflexões sobre aprendizado, carreira e crescimento."
+    },
+    "rotulos": {
+      "atual": "Atual",
+      "separadorPeriodo": "-",
+      "separadorLista": " · "
+    },
+    "rodape": {
+      "texto": "© {ano} {nome}"
+    },
+    "navegacaoPorRolagem": {
+      "paraEscritos": "Continue rolando para ler os escritos",
+      "paraInicio": "Continue rolando para voltar ao início"
+    },
+    "tema": {
+      "paraEscuro": "Mudar para o modo escuro",
+      "paraClaro": "Mudar para o modo claro"
+    },
+    "idioma": {
+      "alvo": "en",
+      "rotulo": "EN",
+      "descricao": "Read in English"
+    }
+  }
+}

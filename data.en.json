@@ -1,0 +1,956 @@
+{
+  "perfil": {
+    "nome": "Rafael Inácio",
+    "cargo": "AI Engineer · Python Backend Developer",
+    "localizacao": "Belo Horizonte, MG",
+    "avatar": "",
+    "lede": "I build generative AI applications and Python backend systems, aiming for high accuracy at the lowest possible operating cost.",
+    "bio": [
+      "I am a Python Backend Developer and AI Engineer with a strong focus on scalable architectures and cost optimization (FinOps). At Docato, a B2B automation legaltech, I build generative AI applications that process, classify and extract data from court documents, and that transcribe audio.",
+      "I designed the platform that centralizes all of the company's AI microservices, cutting daily infrastructure cost by 43%.",
+      "My goal is to deliver high accuracy at the lowest operating cost: I set up rigorous tests before taking models to production and, applying the same architectural mindset, cut cloud query costs (AWS Athena) by 98.6% for a major client."
+    ],
+    "email": "rafaelinacio.contato@gmail.com",
+    "links": [
+      {
+        "rotulo": "GitHub",
+        "url": "https://github.com/inacio-developer"
+      },
+      {
+        "rotulo": "LinkedIn",
+        "url": "https://www.linkedin.com/in/inacio-developer/"
+      },
+      {
+        "rotulo": "Medium",
+        "url": "https://medium.com/@rafaelinacio.articles"
+      },
+      {
+        "rotulo": "Résumé (Portuguese)",
+        "url": "assets/docs/curriculo-rafael-inacio.pdf"
+      }
+    ],
+    "contatos": [
+      {
+        "rotulo": "WhatsApp",
+        "url": "https://wa.me/5531994557852"
+      }
+    ],
+    "ferramentas": [
+      {
+        "grupo": "AI and LLMs",
+        "itens": [
+          "Google Vertex AI (Gemini)",
+          "Anthropic Claude",
+          "Whisper",
+          "Prompt engineering",
+          "Structured outputs (JSON Schema)",
+          "LLM-as-a-judge",
+          "AI agents",
+          "OCR (Tesseract)",
+          "Document classification and segmentation",
+          "TF-IDF",
+          "Model evaluation",
+          "Per-token cost tracking"
+        ]
+      },
+      {
+        "grupo": "Backend",
+        "itens": [
+          "Python",
+          "Event-driven architecture",
+          "RabbitMQ",
+          "Async workers",
+          "APIs REST",
+          "Systems integration",
+          "RPA (Playwright)",
+          "PHP (Yii2)"
+        ]
+      },
+      {
+        "grupo": "Data",
+        "itens": [
+          "PostgreSQL",
+          "MySQL",
+          "DuckDB",
+          "Apache Parquet",
+          "AWS Athena",
+          "pandas",
+          "SQL"
+        ]
+      },
+      {
+        "grupo": "Cloud e DevOps",
+        "itens": [
+          "Google Cloud (Cloud Run, Vertex AI, Cloud Billing)",
+          "AWS (S3, Athena, ECR)",
+          "Docker",
+          "Git",
+          "Graylog"
+        ]
+      },
+      {
+        "grupo": "Quality",
+        "itens": [
+          "pytest",
+          "Observability and alerting",
+          "Scrum",
+          "Kanban",
+          "Jira"
+        ]
+      },
+      {
+        "grupo": "Front-end",
+        "itens": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      }
+    ]
+  },
+  "trajetoria": [
+    {
+      "tipo": "experiencia",
+      "inicio": "2025",
+      "fim": "",
+      "titulo": "Docato",
+      "organizacao": "Legaltech · Remote · Automation and AI for court document processing",
+      "cargos": [
+        {
+          "titulo": "Software Developer (Python Backend and AI)",
+          "periodo": "Jun 2025 - present",
+          "grupos": [
+            {
+              "titulo": "Architecture and performance",
+              "itens": [
+                "Architected and built the centralized AI platform (modular monolith) that unified the company's projects: 43% lower daily server cost and 36% lower cloud bill, even with 17% more tasks.",
+                "Contributed to the architecture, data access layer and messaging (RabbitMQ) of a rule-based document classifier, designed with legal experts to call AI models only when needed.",
+                "Optimized the Predatory Litigation Detection application: upgraded the LLM, added retries for truncated responses and moved the system to the centralized architecture, with no dedicated server and no loss of accuracy."
+              ]
+            },
+            {
+              "titulo": "AI products in production",
+              "itens": [
+                "Lead author of 6 AI applications for court documents: Custom Agents, Audio Transcription, Audio Analysis, Data Classifier, Generative Text AI and AI Segmenter.",
+                "Rebuilt the Data Classifier with two reader models (Claude and Gemini) and a judge called only when they disagree: accuracy from 87% to 92%, 25% lower cost per task, and heavy tasks down from up to 4h42 to 6 minutes.",
+                "Created the AI Segmenter, which splits case files of up to 20,000 pages into 16 document types using deterministic rules before AI, with 59% fewer splitting errors.",
+                "Implemented audio transcription and analysis with self-hosted Whisper, eliminating per-minute API cost, and Custom Agents validated in 31 out of 31 cases with financial sector clients."
+              ]
+            },
+            {
+              "titulo": "Integrations and observability",
+              "itens": [
+                "Lead author of 14 automation applications and 7 integrations with legal systems (Projuris, Brainlaw, BC Legal, SCAE, Looplex) via REST APIs and Playwright, serving large companies in the financial, healthcare and retail sectors.",
+                "Set up cost and operations monitoring: token logging per AI call, automated reports and stuck-task alerts in Google Chat."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "experiencia",
+      "inicio": "2025",
+      "fim": "2025",
+      "titulo": "UITEC",
+      "organizacao": "Remote · Psyc's platform",
+      "cargos": [
+        {
+          "titulo": "Junior Full Stack Developer",
+          "periodo": "Mar 2025 - Jun 2025",
+          "itens": [
+            "Built back-end APIs and integrations in PHP (Yii2) for the Psyc's platform, connecting business rules to the product interfaces.",
+            "Implemented front-end screens and components with React and Next.js, working across both front-end and back-end."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "formacao",
+      "inicio": "2026",
+      "fim": "2029",
+      "titulo": "Bachelor's in Information Systems",
+      "organizacao": "PUC Minas",
+      "descricao": ""
+    },
+    {
+      "tipo": "formacao",
+      "inicio": "2023",
+      "fim": "2024",
+      "titulo": "Professional Training Course",
+      "organizacao": "EBAC (British School of Creative Arts and Technology)",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2024",
+      "fim": "2024",
+      "titulo": "Web Programming: MySQL Databases",
+      "organizacao": "Belo Horizonte City Hall",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2024",
+      "fim": "2024",
+      "titulo": "Databases",
+      "organizacao": "B7Web",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2023",
+      "fim": "2023",
+      "titulo": "Complete JavaScript ES6",
+      "organizacao": "Origamid",
+      "descricao": ""
+    },
+    {
+      "tipo": "certificacao",
+      "inicio": "2023",
+      "fim": "2023",
+      "titulo": "HTML5 and CSS3",
+      "organizacao": "B7Web",
+      "descricao": ""
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Centralized AI Platform",
+      "vinculo": {
+        "cargo": "Python Backend and AI Developer",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "The AI applications ran on 7 isolated microservice pools, with duplicated infrastructure, logs and code. I designed a modular monolith in Python where each application writes only its business logic: one RabbitMQ queue per app, history in PostgreSQL, per-queue priorities and timeouts, a centralized AI client and a shared OCR cache.",
+      "resultado": "7 pools consolidated into 1 service with 8 queues · −43% daily server cost · 722 automated tests",
+      "tecnologias": [
+        "Python",
+        "RabbitMQ",
+        "PostgreSQL",
+        "Cloud Run",
+        "Vertex AI",
+        "Claude",
+        "OCR"
+      ]
+    },
+    {
+      "titulo": "Custom AI Agents and Structured Extraction",
+      "vinculo": {
+        "cargo": "Python Backend and AI Developer",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "A generative AI agent architecture that handles highly variable rules across clients, extracting data from court documents into validated structured outputs.",
+      "resultado": "Validated in 31 out of 31 cases with financial sector clients",
+      "tecnologias": [
+        "Python",
+        "Generative AI",
+        "AI agents",
+        "JSON Schema"
+      ]
+    },
+    {
+      "titulo": "LLM Data Classifier",
+      "vinculo": {
+        "cargo": "Python Backend and AI Developer",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "I rebuilt the classifier with two reader models (Claude and Gemini) and a judge model that only steps in when the readers disagree. That buys accuracy without paying for three calls on every task.",
+      "resultado": "Accuracy from 87% to 92% · 25% lower cost per task · heavy tasks from up to 4h42 to 6 min",
+      "tecnologias": [
+        "Python",
+        "Claude",
+        "Gemini",
+        "LLM-as-a-judge"
+      ]
+    },
+    {
+      "titulo": "AI Segmenter",
+      "vinculo": {
+        "cargo": "Python Backend and AI Developer",
+        "empresa": "Docato"
+      },
+      "ano": "",
+      "resumo": "Splits court case files of up to 20,000 pages into 16 document types, applying deterministic rules before calling the AI.",
+      "resultado": "−59% splitting errors",
+      "tecnologias": [
+        "Python",
+        "OCR",
+        "TF-IDF",
+        "Generative AI"
+      ]
+    },
+    {
+      "titulo": "DuckDB Data Cache",
+      "vinculo": {
+        "cargo": "Python Backend and AI Developer",
+        "empresa": "Docato"
+      },
+      "ano": "2026",
+      "resumo": "A financial sector client ran up to 82 AWS Athena queries per taxpayer ID (CPF), each one scanning entire tables. I architected a daily cache: Athena processes the dataset once a day and writes Parquet (ZSTD) to S3, partitioned by CPF range and read directly with DuckDB, with no dedicated server.",
+      "resultado": "98.6% lower monthly cost (from ~US$ 19.3k to ~US$ 290) · time per CPF from 20 to 30 min down to seconds",
+      "tecnologias": [
+        "Python",
+        "DuckDB",
+        "Parquet",
+        "AWS S3",
+        "AWS Athena"
+      ]
+    }
+  ],
+  "escritos": {
+    "fonte": {
+      "feed": "https://medium.com/feed/@rafaelinacio.articles",
+      "proxy": "https://api.rss2json.com/v1/api.json?rss_url=",
+      "palavrasPorMinuto": 200,
+      "tempoLimiteMs": 6000
+    },
+    "itens": [
+      {
+        "titulo": "Entendendo o modificador static em Java",
+        "data": "2025-03-27",
+        "minutos": 6,
+        "resumo": "The static modifier defines members that belong to the class, not to the instance. What that changes in shared values and method overriding.",
+        "url": "https://medium.com/@rafaelinacio.articles/entendendo-o-modificador-static-em-java-724977cef646"
+      },
+      {
+        "titulo": "Desconstruindo os Construtores",
+        "data": "2025-03-24",
+        "minutos": 4,
+        "resumo": "A class cannot exist without a constructor. A piece dedicated to them, with an explanation of overloading along the way.",
+        "url": "https://medium.com/@rafaelinacio.articles/desconstruindo-os-construtores-0ea64987c56c"
+      },
+      {
+        "titulo": "Entendendo Classes em Java",
+        "data": "2025-03-13",
+        "minutos": 3,
+        "resumo": "Classes organize variables and functions, once scattered, into a context. An introduction to the foundation of Object-Oriented Programming.",
+        "url": "https://medium.com/@rafaelinacio.articles/entendendo-classes-em-java-472365180b42"
+      },
+      {
+        "titulo": "Curiosidades do Java",
+        "data": "2025-03-02",
+        "minutos": 4,
+        "resumo": "Curious behaviors that show up when learning a language. Sometimes it is a bug, sometimes something perfectly normal that is still worth understanding.",
+        "url": "https://medium.com/@rafaelinacio.articles/curiosidades-do-java-581fe192fbe2"
+      },
+      {
+        "titulo": "Java: Write Once, Run Anywhere",
+        "data": "2025-03-01",
+        "minutos": 4,
+        "resumo": "The motto that made me want to learn Java: write once, run anywhere. How the JVM makes that promise possible.",
+        "url": "https://medium.com/@rafaelinacio.articles/java-write-once-run-anywhere-994e4c507697"
+      },
+      {
+        "titulo": "Do Básico ao Essencial: A Importância da Objetividade na Programação",
+        "data": "2024-12-17",
+        "minutos": 4,
+        "resumo": "It was a simple calculator, until suddenly it was not. On projects that grow in complexity and the value of focusing on the essentials.",
+        "url": "https://medium.com/@rafaelinacio.articles/do-b%C3%A1sico-ao-essencial-a-import%C3%A2ncia-da-objetividade-na-programa%C3%A7%C3%A3o-1d2909017f91"
+      }
+    ]
+  },
+  "curiosidades": {
+    "ritmo": {
+      "primeiraAposSegundos": [
+        15,
+        40
+      ],
+      "duracaoSegundos": [
+        20,
+        75
+      ],
+      "intervaloSegundos": [
+        30,
+        100
+      ]
+    },
+    "sequencia": {
+      "tamanho": 5,
+      "atrasoSegundos": 5,
+      "continuacao": {
+        "icone": "assets/img/icons/mais.png",
+        "legenda": "There is more. Stick around, other things about Rafael keep showing up."
+      }
+    },
+    "itens": [
+      {
+        "icone": "assets/img/icons/anime-one-piece.png",
+        "legenda": "One Piece is Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/chapeu-luffy.png",
+        "legenda": "Luffy's straw hat, from One Piece, Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/mangas-one-piece.png",
+        "legenda": "Besides the anime, Rafael also reads the One Piece manga."
+      },
+      {
+        "icone": "assets/img/icons/anime-fma.png",
+        "legenda": "Fullmetal Alchemist is one of Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/anime-hunterxhunter.png",
+        "legenda": "Hunter x Hunter is one of Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/anime-naruto.png",
+        "legenda": "Naruto is one of Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/anime-pokemon.png",
+        "legenda": "Rafael is a Pokémon fan."
+      },
+      {
+        "icone": "assets/img/icons/animes.png",
+        "legenda": "Rafael is an anime fan."
+      },
+      {
+        "icone": "assets/img/icons/escudo-palmeiras.png",
+        "legenda": "Rafael supports Palmeiras, the club of his heart in Brazil."
+      },
+      {
+        "icone": "assets/img/icons/escudo-liverpool.png",
+        "legenda": "In England, Rafael supports Liverpool."
+      },
+      {
+        "icone": "assets/img/icons/escudo-barcelona.png",
+        "legenda": "In Spain, Rafael supports Barcelona."
+      },
+      {
+        "icone": "assets/img/icons/escudo-celtics.png",
+        "legenda": "In the NBA, Rafael roots for the Boston Celtics."
+      },
+      {
+        "icone": "assets/img/icons/futebol.png",
+        "legenda": "Rafael is passionate about football."
+      },
+      {
+        "icone": "assets/img/icons/basquete.png",
+        "legenda": "Rafael also follows basketball."
+      },
+      {
+        "icone": "assets/img/icons/esportes.png",
+        "legenda": "Rafael is a sports fan."
+      },
+      {
+        "icone": "assets/img/icons/filmes-forrest-gump.png",
+        "legenda": "Forrest Gump is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-david-gale.png",
+        "legenda": "The Life of David Gale is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-past-lives.png",
+        "legenda": "Past Lives is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-taxi-driver.png",
+        "legenda": "Taxi Driver is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-toc-toc.png",
+        "legenda": "Toc Toc is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-zodiaco.png",
+        "legenda": "Zodiac is one of Rafael's favorite movies."
+      },
+      {
+        "icone": "assets/img/icons/filmes-misterio.png",
+        "legenda": "Mystery movies are Rafael's favorites."
+      },
+      {
+        "icone": "assets/img/icons/filmes.png",
+        "legenda": "Rafael loves cinema."
+      },
+      {
+        "icone": "assets/img/icons/series-the-office.png",
+        "legenda": "The Office is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series-himym.png",
+        "legenda": "How I Met Your Mother is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series-modern-family.png",
+        "legenda": "Modern Family is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series-arrested-development.png",
+        "legenda": "Arrested Development is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series-abbott.png",
+        "legenda": "Abbott Elementary is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series-adults.png",
+        "legenda": "Adults is one of Rafael's favorite shows."
+      },
+      {
+        "icone": "assets/img/icons/series.png",
+        "legenda": "Rafael is a fan of comedy shows."
+      },
+      {
+        "icone": "assets/img/icons/jogos-fifa.png",
+        "legenda": "Rafael plays EA Sports."
+      },
+      {
+        "icone": "assets/img/icons/jogos-lol.png",
+        "legenda": "Rafael plays League of Legends."
+      },
+      {
+        "icone": "assets/img/icons/jogos.png",
+        "legenda": "Rafael likes video games."
+      },
+      {
+        "icone": "assets/img/icons/musica.png",
+        "legenda": "Rafael loves music."
+      },
+      {
+        "icone": "assets/img/icons/robos.png",
+        "legenda": "Rafael is fascinated by robots."
+      },
+      {
+        "icone": "assets/img/icons/ti.png",
+        "legenda": "Technology has always been Rafael's passion."
+      },
+      {
+        "icone": "assets/img/icons/belo-horizonte.png",
+        "legenda": "Rafael lives in Belo Horizonte, Brazil."
+      },
+      {
+        "icone": "assets/img/icons/minas-gerais.png",
+        "legenda": "Cheese, coffee and mountains: Minas Gerais is Rafael's home."
+      },
+      {
+        "icone": "assets/img/icons/comida-arroz-e-feijao.png",
+        "legenda": "For Rafael, nothing beats good old rice and beans."
+      },
+      {
+        "icone": "assets/img/icons/comida-batata-frita.png",
+        "legenda": "Rafael can't resist French fries."
+      },
+      {
+        "icone": "assets/img/icons/comida-bolo.png",
+        "legenda": "Rafael loves cake."
+      },
+      {
+        "icone": "assets/img/icons/comida-hamburguer.png",
+        "legenda": "Burgers are among Rafael's favorite foods."
+      },
+      {
+        "icone": "assets/img/icons/comida-ovo.png",
+        "legenda": "Fried egg: simple, and one of Rafael's favorites."
+      },
+      {
+        "icone": "assets/img/icons/comida-pao.png",
+        "legenda": "Pão de sal (Brazilian bread roll) with butter is Rafael's favorite breakfast."
+      },
+      {
+        "icone": "assets/img/icons/comida-pizza.png",
+        "legenda": "Pizza is among Rafael's favorite foods."
+      },
+      {
+        "icone": "assets/img/icons/desenho-dragonball.png",
+        "legenda": "Rafael grew up watching Dragon Ball."
+      },
+      {
+        "icone": "assets/img/icons/desenho-caverna-do-dragao.png",
+        "legenda": "Dungeons & Dragons, the cartoon: a classic from Rafael's childhood."
+      },
+      {
+        "icone": "assets/img/icons/desenho-looney-tunes.png",
+        "legenda": "Looney Tunes filled Rafael's childhood afternoons."
+      },
+      {
+        "icone": "assets/img/icons/desenho-tom-e-jerry.png",
+        "legenda": "Tom & Jerry was part of Rafael's childhood."
+      },
+      {
+        "icone": "assets/img/icons/desenho-menino-maluquinho.png",
+        "legenda": "O Menino Maluquinho left a mark on Rafael's childhood."
+      },
+      {
+        "icone": "assets/img/icons/desenho-pequeno-urso.png",
+        "legenda": "Little Bear is a fond childhood memory for Rafael."
+      },
+      {
+        "icone": "assets/img/icons/desenho-sete-monstrinhos.png",
+        "legenda": "Rafael learned to count with The Seven Little Monsters."
+      },
+      {
+        "icone": "assets/img/icons/zatch-bell.png",
+        "legenda": "Zatch Bell is one of Rafael's favorite anime."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-tatum.png",
+        "legenda": "Rafael is a fan of Jayson Tatum, number 0 for the Celtics, his NBA team."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-curry.png",
+        "legenda": "Rafael is a fan of Stephen Curry, Chef Curry, the greatest three-point shooter in NBA history."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-lebron.png",
+        "legenda": "Rafael is a fan of LeBron James, King James, one of the greatest players in NBA history."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-durant.png",
+        "legenda": "Rafael likes Kevin Durant so much that he once built a landing page for his sneakers."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-duncan.png",
+        "legenda": "Rafael is a fan of Tim Duncan, The Big Fundamental, a San Antonio Spurs legend."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-kawhi.png",
+        "legenda": "Rafael is a fan of Kawhi Leonard, The Klaw, one of the quietest players in the NBA."
+      },
+      {
+        "icone": "assets/img/icons/jogador-basquete-luka.png",
+        "legenda": "Rafael is a fan of Luka Dončić, Luka Magic, and his impossible plays."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-marcos.png",
+        "legenda": "São Marcos, the saint goalkeeper, is one of Rafael's biggest Palmeiras idols."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-marcos-assuncao.png",
+        "legenda": "Marcos Assunção is one of Rafael's Palmeiras idols, largely for his free kicks."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-barcos.png",
+        "legenda": "Barcos, the Pirate, is sorely missed by Palmeiras fan Rafael."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-diego-souza.png",
+        "legenda": "Diego Souza's goal from midfield against Atlético-MG is one of the reasons Rafael supports Palmeiras."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-dudu.png",
+        "legenda": "Dudu is one of Rafael's idols at Palmeiras, the club of his heart."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-messi.png",
+        "legenda": "Rafael is a fan of Messi, Barcelona's number 10, his team in Spain."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-ronaldinho.png",
+        "legenda": "Rafael is a fan of Ronaldinho Gaúcho, the Wizard, and the smile he brought onto the pitch."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-ronaldo.png",
+        "legenda": "Rafael is a fan of Ronaldo, O Fenômeno, number 9 of Brazil's fifth World Cup."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-iniesta.png",
+        "legenda": "Rafael is a fan of Iniesta, the maestro of Barcelona's midfield."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-suarez.png",
+        "legenda": "Rafael is a fan of Luis Suárez, from Barcelona's MSN trio."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-salah.png",
+        "legenda": "Rafael is a fan of Mohamed Salah, the Egyptian King, Liverpool's goal machine."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-hazard.png",
+        "legenda": "Rafael is a fan of Eden Hazard and his dribbling in his Chelsea days."
+      },
+      {
+        "icone": "assets/img/icons/livros.png",
+        "legenda": "Rafael loves reading."
+      },
+      {
+        "icone": "assets/img/icons/livro-os-miseraveis.png",
+        "legenda": "Les Misérables, by Victor Hugo, is one of Rafael's favorite books."
+      },
+      {
+        "icone": "assets/img/icons/livro-algoritmos.png",
+        "legenda": "Algorithm books also have a place on Rafael's shelf."
+      },
+      {
+        "icone": "assets/img/icons/scarlett.png",
+        "legenda": "Scarlett, Rafael's girlfriend."
+      },
+      {
+        "icone": "assets/img/icons/musica-mpb.png",
+        "legenda": "MPB (Brazilian popular music) is a constant soundtrack in Rafael's life."
+      },
+      {
+        "icone": "assets/img/icons/musica-samba.png",
+        "legenda": "Samba and pagode have their turn on Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/musica-rap.png",
+        "legenda": "Brazilian and American rap: always in Rafael's headphones."
+      },
+      {
+        "icone": "assets/img/icons/musica-pop.png",
+        "legenda": "Rafael has his pop side too."
+      },
+      {
+        "icone": "assets/img/icons/artista-caetano-veloso.png",
+        "legenda": "\"Caminhando contra o vento\": walking against the wind, Rafael keeps Caetano Veloso in his headphones."
+      },
+      {
+        "icone": "assets/img/icons/artista-chico-buarque.png",
+        "legenda": "Rafael was idling through life when Chico Buarque called him to watch the band go by (\"A Banda\")."
+      },
+      {
+        "icone": "assets/img/icons/artista-gilberto-gil.png",
+        "legenda": "\"Andar com fé eu vou\": with faith, and with Gilberto Gil on Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/artista-gal-costa.png",
+        "legenda": "\"Meu nome é Gal\": Gal Costa is one of Rafael's favorite voices."
+      },
+      {
+        "icone": "assets/img/icons/artista-milton-nascimento.png",
+        "legenda": "Milton Nascimento, a fellow mineiro, soothes Rafael's student heart (\"Coração de Estudante\")."
+      },
+      {
+        "icone": "assets/img/icons/artista-gonzaguinha.png",
+        "legenda": "Living without being ashamed to be happy (\"O Que É, O Que É?\"): Gonzaguinha, on Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/artista-erasmo-carlos.png",
+        "legenda": "Erasmo Carlos, the Tremendão, has a permanent spot on Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/artista-roberto-carlos.png",
+        "legenda": "Roberto Carlos already warned: you have to know how to live (\"É Preciso Saber Viver\"). Rafael agrees."
+      },
+      {
+        "icone": "assets/img/icons/artista-lulu-santos.png",
+        "legenda": "Everything changes all the time (\"Como uma Onda\"), except Lulu Santos on Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/artista-nando-reis.png",
+        "legenda": "It would be strange if Rafael didn't listen to Nando Reis."
+      },
+      {
+        "icone": "assets/img/icons/artista-skank.png",
+        "legenda": "And when Rafael is sad, simply some Skank in his headphones (\"Simplesmente\")."
+      },
+      {
+        "icone": "assets/img/icons/artista-paralamas-do-sucesso.png",
+        "legenda": "\"Eu quis dizer, você não quis escutar\": but Rafael does listen to Os Paralamas do Sucesso."
+      },
+      {
+        "icone": "assets/img/icons/artista-humberto-gessinger.png",
+        "legenda": "\"Somos quem podemos ser\": Humberto Gessinger is one of Rafael's favorites."
+      },
+      {
+        "icone": "assets/img/icons/artista-charlie-brown-jr.png",
+        "legenda": "\"Só os loucos sabem\": Charlie Brown Jr. marked Rafael's teenage years."
+      },
+      {
+        "icone": "assets/img/icons/artista-zeca-pagodinho.png",
+        "legenda": "\"Deixa a vida me levar\": let life take me, and let Zeca Pagodinho take over Rafael's playlist."
+      },
+      {
+        "icone": "assets/img/icons/artista-beth-carvalho.png",
+        "legenda": "\"Vou festejar!\": Beth Carvalho is one of Rafael's favorite voices."
+      },
+      {
+        "icone": "assets/img/icons/artista-alcione.png",
+        "legenda": "\"Não deixe o samba morrer\": Rafael won't let samba die, with Alcione in his headphones."
+      },
+      {
+        "icone": "assets/img/icons/artista-belo.png",
+        "legenda": "Belo also gets his turn on Rafael's playlist, no shame at all."
+      },
+      {
+        "icone": "assets/img/icons/artista-racionais.png",
+        "legenda": "\"Até no lixão nasce flor\": Racionais MC's is one of Rafael's favorite groups."
+      },
+      {
+        "icone": "assets/img/icons/artista-marcelo-d2.png",
+        "legenda": "Rafael is also searching for the perfect beat (\"À Procura da Batida Perfeita\"), with Marcelo D2."
+      },
+      {
+        "icone": "assets/img/icons/artista-don-l.png",
+        "legenda": "\"Caro vapor\": Don L is one of Rafael's favorite rappers."
+      },
+      {
+        "icone": "assets/img/icons/artista-sant.png",
+        "legenda": "Sant is one of Rafael's favorite rappers."
+      },
+      {
+        "icone": "assets/img/icons/artista-kendrick-lamar.png",
+        "legenda": "We gon' be alright: Kendrick Lamar is one of Rafael's favorite rappers."
+      },
+      {
+        "icone": "assets/img/icons/artista-eminem.png",
+        "legenda": "You only get one shot: Eminem plays loud in Rafael's headphones."
+      },
+      {
+        "icone": "assets/img/icons/artista-mac-miller.png",
+        "legenda": "Good news: Mac Miller is one of Rafael's favorite artists."
+      },
+      {
+        "icone": "assets/img/icons/artista-sza.png",
+        "legenda": "Good days: SZA is always playing in Rafael's headphones."
+      },
+      {
+        "icone": "assets/img/icons/artista-michael-jackson.png",
+        "legenda": "Don't stop 'til you get enough: Rafael can't stop listening to Michael Jackson."
+      },
+      {
+        "icone": "assets/img/icons/artista-justin-bieber.png",
+        "legenda": "Is it too late now to say sorry? Yes, Rafael listens to Justin Bieber too."
+      },
+      {
+        "icone": "assets/img/icons/beyblade.png",
+        "legenda": "3, 2, 1… let it rip! Rafael grew up spinning Beyblades."
+      },
+      {
+        "icone": "assets/img/icons/sonho-amigos-e-familia-realizando-sonhos.png",
+        "legenda": "One of Rafael's dreams: seeing friends and family make their own dreams come true."
+      },
+      {
+        "icone": "assets/img/icons/sonho-bom-desenvolvedor.png",
+        "legenda": "One of Rafael's dreams: climbing every step, from junior to senior, and becoming a great developer."
+      },
+      {
+        "icone": "assets/img/icons/sonho-solucoes-que-ajudam-pessoas.png",
+        "legenda": "One of Rafael's dreams: building solutions that truly help people."
+      },
+      {
+        "icone": "assets/img/icons/sonho-viajar-o-mundo.png",
+        "legenda": "One of Rafael's dreams: traveling the world."
+      },
+      {
+        "icone": "assets/img/icons/sonho-vida-financeira-saudavel.png",
+        "legenda": "One of Rafael's dreams: a healthy, worry-free financial life."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-alisson.png",
+        "legenda": "Alisson, Liverpool's brick wall, is one of Rafael's favorites."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-firmino.png",
+        "legenda": "Bobby Firmino and his smile defined Rafael's favorite Liverpool."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-gerrard.png",
+        "legenda": "You'll Never Walk Alone: Steven Gerrard, Liverpool's eternal captain, is Rafael's idol."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-mane.png",
+        "legenda": "Sadio Mané, from Liverpool's attacking trio, is one of Rafael's favorites."
+      },
+      {
+        "icone": "assets/img/icons/jogador-futebol-van-dijk.png",
+        "legenda": "Virgil van Dijk, Liverpool's wall, is one of Rafael's favorites."
+      }
+    ]
+  },
+  "textos": {
+    "meta": {
+      "idioma": "en",
+      "paginas": {
+        "inicio": {
+          "titulo": "Rafael Inácio | AI Engineer and Python Backend Developer",
+          "descricao": "Portfolio of Rafael Inácio, AI Engineer and Python Backend Developer. Generative AI applications, backend architecture and cloud cost optimization."
+        },
+        "escritos": {
+          "titulo": "Writing | Rafael Inácio",
+          "descricao": "Rafael Inácio's reflections on learning, career and growth."
+        }
+      }
+    },
+    "navegacao": [
+      {
+        "pagina": "inicio",
+        "rotulo": "Home",
+        "href": "./"
+      },
+      {
+        "pagina": "escritos",
+        "rotulo": "Writing",
+        "href": "escritos.html"
+      }
+    ],
+    "acessibilidade": {
+      "pularConteudo": "Skip to content",
+      "fotoPerfil": "Photo of Rafael Inácio",
+      "novaAba": "(opens in a new tab)",
+      "navegacaoLinks": "External links",
+      "navegacaoSite": "Main navigation"
+    },
+    "secoes": {
+      "sobre": {
+        "titulo": "About"
+      },
+      "projetos": {
+        "titulo": "Projects",
+        "rotuloCodigo": "Code",
+        "vinculo": "Built as {cargo} at {empresa}"
+      },
+      "escritos": {
+        "leitura": "{min} min read"
+      },
+      "arquivo": {
+        "titulo": "All writing",
+        "verTodos": {
+          "rotulo": "Medium profile",
+          "url": "https://medium.com/@rafaelinacio.articles"
+        }
+      },
+      "trajetoria": {
+        "titulo": "Experience",
+        "grupos": {
+          "experiencia": "Work",
+          "formacao": "Education",
+          "certificacao": "Courses and certifications"
+        }
+      },
+      "ferramentas": {
+        "titulo": "Skills"
+      },
+      "contato": {
+        "titulo": "Contact",
+        "texto": "The fastest way to reach me is by email.",
+        "copiar": "Copy",
+        "copiado": "Copied"
+      }
+    },
+    "paginaEscritos": {
+      "titulo": "Writing",
+      "introducao": "I write to understand what I learn. Here are my reflections on learning, career and growth. The articles are written in Portuguese."
+    },
+    "rotulos": {
+      "atual": "Present",
+      "separadorPeriodo": "-",
+      "separadorLista": " · "
+    },
+    "rodape": {
+      "texto": "© {ano} {nome}"
+    },
+    "navegacaoPorRolagem": {
+      "paraEscritos": "Keep scrolling to read my writing",
+      "paraInicio": "Keep scrolling to go back home"
+    },
+    "tema": {
+      "paraEscuro": "Switch to dark mode",
+      "paraClaro": "Switch to light mode"
+    },
+    "idioma": {
+      "alvo": "pt",
+      "rotulo": "PT",
+      "descricao": "Ler em português"
+    }
+  }
+}
