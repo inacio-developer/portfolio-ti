@@ -1,0 +1,32 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code (configurações locais)
+.claude/settings.local.json
+
+# Python (tools/doodle_icons.py)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (caso use npx serve, etc.)
+node_modules/
+npm-debug.log*
+
+# Saída do gerador de ícones que o site não usa
+assets/img/icons/framed/
+
+# Logs e temporários
+*.log
+*.tmp
+.env
+.env.*
